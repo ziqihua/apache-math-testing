@@ -21,8 +21,6 @@ public class MyFractions {
      * @param isAdd true to add, false to subtract
      * @return a {@code Fraction} instance with the resulting values
      * @throws NullArgumentException if the fraction is {@code null}
-     * @throws MathArithmeticException if the resulting numerator or denominator
-     *   cannot be represented in an {@code int}.
      */
     public static Fraction addSub(Fraction f1, Fraction f2, boolean isAdd) {
         if (f1 == null) {
